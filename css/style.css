@@ -216,3 +216,26 @@
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
 }
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #444;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dark-mode .toggle-btn {
+  background-color: #ddd;
+  color: #121212;
+}
